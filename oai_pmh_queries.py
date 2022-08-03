@@ -1,4 +1,5 @@
 import lxml
+import json
 from oaipmh.client import Client
 from oaipmh.metadata import MetadataRegistry, oai_dc_reader
 from oaipmh import error
@@ -6,83 +7,104 @@ from urllib import error as urlerror
 
 registry = MetadataRegistry()
 registry.registerReader('oai_dc', oai_dc_reader)
+SOFTWARE_SET = '74797065733D736F667477617265'
+
 
 def get_software_set(oai_url):
-
     error_urls = []
-    
+
     try:
-        print(oai_url)
+        print(f"[] Getting sets from {oai_url}")
         client = Client(oai_url, registry)
         for i in client.listSets():
             print(i)
     except error.NoRecordsMatchError:
-        print(oai_url+" No records")
+        print(f"{oai_url} has No records")
         pass
     except error.BadVerbError:
         error_urls.append(oai_url)
         pass
     except urlerror.HTTPError:
         error_urls.append(oai_url)
-        print(oai_url+" urllib.error.HTTPError: 404")
+        print(f"{oai_url} urllib.error.HTTPError: 404")
         pass
     except urlerror.URLError:
-        print(oai_url + " URLError")
+        print(f"{oai_url} URLError")
         error_urls.append(oai_url)
         pass
     except TimeoutError:
-        print(oai_url + "TimeoutError")
+        print(f"{oai_url} TimeoutError")
         error_urls.append(oai_url)
         pass
     except error.BadArgumentError:
-        print(oai_url + "BadArg")
+        print(f"{oai_url} BadArg")
         error_urls.append(oai_url)
         pass
     except lxml.etree.XMLSyntaxError:
-        print(oai_url + "XMLSyntaxError")
+        print(f"{oai_url} XMLSyntaxError")
         error_urls.append(oai_url)
         pass
     except error.XMLSyntaxError:
-        print(oai_url + " XMLSyntaxError")
+        print(f"{oai_url} XMLSyntaxError")
         pass
+
 
 def get_software_records(oai_url):
-
     num_software_records = 0
     client = Client(oai_url, registry)
-
+    error_urls = []
+    output = {"URL": oai_url,
+              "Num_sw_records": num_software_records,
+              "Error": ""
+              }
     try:
-        error_urls = []
-        for record in client.listRecords(metadataPrefix='oai_dc', set='74797065733D736F667477617265'):
+
+        for record in client.listRecords(metadataPrefix='oai_dc', set=SOFTWARE_SET):
             num_software_records += 1
             print(record[1].getMap(), "records ", num_software_records)
+            output["URL"] = oai_url
+            output["Num_sw_records"] = num_software_records
+
     except error.NoRecordsMatchError:
-        print(oai_url+" No records")
+        # print(f"{oai_url} No records")
         pass
     except error.BadVerbError:
-        error_urls.append(oai_url)
+        # error_urls.append(oai_url)
+        output["Error"] = "BadVerbError"
         pass
     except urlerror.HTTPError:
-        error_urls.append(oai_url)
-        print(oai_url+" urllib.error.HTTPError: 404")
+        # error_urls.append(oai_url)
+        output["Error"] = "404 error"
+        # print(f"{oai_url} urllib.error.HTTPError: 404")
         pass
     except urlerror.URLError:
-        print(oai_url + " URLError")
-        error_urls.append(oai_url)
+        output["Error"] = "URL error"
+        # print(f"{oai_url} URLError")
+        # error_urls.append(oai_url)
         pass
     except TimeoutError:
-        print(oai_url + "TimeoutError")
-        error_urls.append(oai_url)
+        output["Error"] = "Timeout error"
+        print(f"{oai_url} TimeoutError")
+        # error_urls.append(oai_url)
         pass
     except error.BadArgumentError:
-        print(oai_url + "BadArg")
-        error_urls.append(oai_url)
+        output["Error"] = "Bad Argument Error"
+        # print(f"{oai_url} BadArg")
+        # error_urls.append(oai_url)
         pass
     except lxml.etree.XMLSyntaxError:
-        print(oai_url + "XMLSyntaxError")
-        error_urls.append(oai_url)
+        output["Error"] = "lxml XML syntax error"
+        # print(f"{oai_url} XMLSyntaxError")
+        # error_urls.append(oai_url)
         pass
     except error.XMLSyntaxError:
-        print(oai_url + " XMLSyntaxError")
+        output["Error"] = "OAI XML Syntax error"
+        # print(f"{oai_url} XMLSyntaxError")
         pass
 
+    return output
+
+
+def write_to_file(all_output: dict, json_file_out: str):
+    with open(json_file_out, 'w') as fp:
+        json.dump(all_output, fp, indent=4)

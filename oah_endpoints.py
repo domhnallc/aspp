@@ -8,8 +8,10 @@ def write_endpoint_file(list_of_endpoints: list, file_to_write: str):
     """
 
     with open(file_to_write, "w") as endpoint_list_file:
+        print("[] Writing endpoints file to ", file_to_write)
         for endpoint in list_of_endpoints:
             endpoint_list_file.write(endpoint[1] + "\n")
+    print("[] Done")
 
 
 def get_all_endpoints(filepath: str) -> list:
@@ -20,6 +22,8 @@ def get_all_endpoints(filepath: str) -> list:
     :param filepath: STR filepath to the overall OAI-OMH spreadsheet
     :return: list of all registered URLs
     """
+    print("[] Building list of endpoints from ", filepath)
     df = pd.read_excel(filepath, 'filtered')
     list_of_reg_data_providers = [tuple(x) for x in df.values]
+    print("[] Done")
     return list_of_reg_data_providers
