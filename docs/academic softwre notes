@@ -77,7 +77,13 @@ OPENAIRE.EU
 620 software out of 5,715,811 'research products' in uk.  https://explore.openaire.eu/search/find?instancetypename=%22Software%22&country=%22GB%22&active=result
 297,383 software globally
 
+Got list of openaire dataproviders for new oai-pmh and repo urls.
+
 OSF.IO
 https://share.osf.io/discover?q=%20tags%3A(%22Software%22)
 4,729,127 with tag SOFTWARE
 
+Software is in vocab of accepted terms for Type, one of the core 15. https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
+
+https://en.wikipedia.org/wiki/RIS_(file_format)#Tags
+ RIS has type of work tag M3, with  software as a category
