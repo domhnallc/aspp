@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-08-09T10:03:56Z</responseDate>
+  <request verb="ListSets">https://openaccess.sgul.ac.uk/cgi/oai2</request>
+  <ListSets>
+    <set>
+      <setSpec>7374617475733D696E7072657373</setSpec>
+      <setName>Status = In Press</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D7375626D6974746564</setSpec>
+      <setName>Status = Submitted</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D707562</setSpec>
+      <setName>Status = Published</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D7075625F6F6E6C696E65</setSpec>
+      <setName>Status = Published online</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D756E707562</setSpec>
+      <setName>Status = Unpublished</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6172746566616374</setSpec>
+      <setName>Type = Artefact</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D636F6D706F736974696F6E</setSpec>
+      <setName>Type = Composition</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D617564696F</setSpec>
+      <setName>Type = Audio</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D626F6F6B</setSpec>
+      <setName>Type = Book</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D7265706F7274</setSpec>
+      <setName>Type = Report</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6D6F6E6F6772617068</setSpec>
+      <setName>Type = Monograph</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D64657369676E</setSpec>
+      <setName>Type = Design</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6F74686572</setSpec>
+      <setName>Type = Other</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D61727469636C65</setSpec>
+      <setName>Type = Article</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D746865736973</setSpec>
+      <setName>Type = Thesis</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D696E7465726E65745F7075626C69636174696F6E</setSpec>
+      <setName>Type = Internet Publication</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D64617461736574</setSpec>
+      <setName>Type = Dataset</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6578706572696D656E74</setSpec>
+      <setName>Type = Experiment</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D636F6E666572656E63655F6974656D</setSpec>
+      <setName>Type = Conference or Workshop Item</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D626F6F6B5F73656374696F6E</setSpec>
+      <setName>Type = Book Section</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D7363686F6C61726C795F65646974696F6E</setSpec>
+      <setName>Type = Scholarly Edition</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D706174656E74</setSpec>
+      <setName>Type = Patent</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D706572666F726D616E6365</setSpec>
+      <setName>Type = Performance</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D696D616765</setSpec>
+      <setName>Type = Image</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D7465616368696E675F7265736F75726365</setSpec>
+      <setName>Type = Teaching Resource</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D65786869626974696F6E</setSpec>
+      <setName>Type = Show/Exhibition</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D766964656F</setSpec>
+      <setName>Type = Video</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D736F667477617265</setSpec>
+      <setName>Type = Software</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D706F7274666F6C696F</setSpec>
+      <setName>Type = Portfolio</setName>
+    </set>
+    <set>
+      <setSpec>driver</setSpec>
+      <setName>Open Access DRIVERset</setName>
+    </set>
+  </ListSets>
+</OAI-PMH>

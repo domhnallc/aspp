@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-08-09T10:04:03Z</responseDate>
+  <request verb="ListSets">http://edshare.soton.ac.uk/cgi/oai2</request>
+  <ListSets>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D7031:756F732D6A66</setSpec>
+      <setName>University structure = Professional Services: iSolutions</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D626C</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: Economics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616337</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Physical &amp; Applied Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D7031:756F732D6577</setSpec>
+      <setName>University structure = Professional Services: Student Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D7064:756F732D7263</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Social Sciences - Central: Public Policy Southampton</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D6B61</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: Social Statistics and Demography</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D6A6C</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: Institute for Life Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D7064:756F732D6C64</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Social Sciences - Central: Centre for Higher Education Practice (CHEP)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D666A</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: Philosophy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616338</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Social &amp; Human Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D6D68</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: Archaeology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D7076</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Civil and Env Eng</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D63632D65636F</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: (legacy) Economics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D706A</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Mathematical Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D6361</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: Politics and International Relations</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6566</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: Marine and Maritime Institute</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D6D75736963</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) Music</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64</setSpec>
+      <setName>University structure = (Legacy)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D7762</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: Gerontology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D636D</setSpec>
+      <setName>University structure = Faculty of Medicine: Cancer Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D6166</setSpec>
+      <setName>University structure = Faculty of Medicine: Human Development and Health</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D61726368</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) Archaeology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D7064</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Social Sciences - Central</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D7031</setSpec>
+      <setName>University structure = Professional Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D7261</setSpec>
+      <setName>University structure = Faculty of Medicine: Medical Education</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D6278</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Mechanical Engineering</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D7467</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: Sociology, Social Policy and Criminology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6562</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Chemistry</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D6867</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: Academic Centre for International Students</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616336</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Medicine</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D766C</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Foundation Year</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616333:756F732D6B6B</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Engineering &amp; the Environment: (legacy) School of Engineering Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D7065</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Aerospace Eng</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D656E67</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) English</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D7031:756F732D6268</setSpec>
+      <setName>University structure = Professional Services: Risk, Health and Safety</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135</setSpec>
+      <setName>University structure = Faculty of Social Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D7674</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Maritime Eng</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D706C</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: English</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D6C616E67</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) Modern Languages</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D706B:756F732D6772</setSpec>
+      <setName>University structure = (Legacy): (legacy) Professional Services: (legacy) University Secretary</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D6C6C</setSpec>
+      <setName>University structure = Faculty of Medicine: Medicine (Central)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D6C67</setSpec>
+      <setName>University structure = Faculty of Medicine: Primary Care and Population Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D706E</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: Zepler Institute for Photonics and Nanoelectronics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616336:756F732D726A</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Medicine: (legacy) School of Medicine</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D782D6F74686572</setSpec>
+      <setName>University structure = (Legacy): (legacy) Other</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D6B72</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Institute of Sound and Vibration Research</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D63632D72656C</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: (legacy) Politics and International Relations</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D6366</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Health Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D626A</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Biological Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D766E</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Mechanical Eng</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D656B</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Engineering, Science and Mathematics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D7465</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Energy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D7766</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Physics and Astronomy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D6366:756F732D6A62</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Health Sciences: Nursing, Midwifery and Health</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D7267</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: History</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6668</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: Winchester School of Art</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D6B65</setSpec>
+      <setName>University structure = (Legacy): (legacy) Professional Practice in Health Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D63632D706F6C</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: (legacy) Sociology and Social Policy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D6A6577</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) Jewish History and Culture</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6670</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Electronics and Computer Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6E6C</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: Web Science Institute</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D7277</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: Environmental and Life Sciences - Central</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D706B:756F732D627A</setSpec>
+      <setName>University structure = (Legacy): (legacy) Professional Services: (legacy) Learning and Teaching Enhancement Unit (LATEU)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616332</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Business and Law</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D6D6D</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Central</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6A6A</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Southampton Law School</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D686B</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: National Oceanography Centre (NERC)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D6E63</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: Music</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D676E</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: Engineering and Physical Sciences - Central</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D686E</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Ocean &amp; Earth Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D6366:756F732D7761</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Health Sciences: Allied Health Professions</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D7264</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Medicine, Health and Life Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D66696C6D</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) Film Studies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D7031:756F732D6B78</setSpec>
+      <setName>University structure = Professional Services: Library &amp; the Arts</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D636A</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Southampton Education School</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D7064:756F732D6D62</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Social Sciences - Central: Public Engagement with Research</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616333:756F732D6D6A</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Engineering &amp; the Environment: (legacy) School of Civil Engineering and the Environment</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D6A77</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Psychology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D6663</setSpec>
+      <setName>University structure = Faculty of Medicine: Clinical and Experimental Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D7472</setSpec>
+      <setName>University structure = Faculty of Social Sciences: Southampton Business School</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D63632D776F726B</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: (legacy) Social Work Studies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D68697374</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) History</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616333</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Engineering &amp; the Environment</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134:756F732D7662</setSpec>
+      <setName>University structure = Faculty of Medicine: Wessex Institute</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D706B:756F732D646B</setSpec>
+      <setName>University structure = (Legacy): (legacy) Professional Services: (legacy) Communications and Marketing</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D6E74</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Audiology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D706E:756F732D6568</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: Zepler Institute for Photonics and Nanoelectronics: Optoelectronics Research Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D706B</setSpec>
+      <setName>University structure = (Legacy): (legacy) Professional Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6134</setSpec>
+      <setName>University structure = Faculty of Medicine</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D616B</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Aeronautical and Astronautical Engineering</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D6E64</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Engineering Education - Acoustical Eng</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616331:756F732D6B77:756F732D6B772D7068696C</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Humanities: (legacy) School of Humanities: (legacy) Philosophy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6132:756F732D7772</setSpec>
+      <setName>University structure = Faculty of Environmental and Life Sciences: School of Geography and Environmental Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6E78</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: Arts and Humanities - Central</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616338:756F732D7774</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Social &amp; Human Sciences: (legacy) Southampton Statistical Sciences Research Institute</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6133:756F732D6461:756F732D6174</setSpec>
+      <setName>University structure = Faculty of Engineering and Physical Sciences: School of Engineering: Civil, Maritime and Environmental Engineering</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6135:756F732D6363:756F732D63632D73746174</setSpec>
+      <setName>University structure = Faculty of Social Sciences: School of Economic Social and Political Science: (legacy) Social Statistics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D6763</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: Modern Languages and Linguistics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D6469766973696F6E735F6F6C64:756F732D66616333:756F732D6466</setSpec>
+      <setName>University structure = (Legacy): (legacy) Faculty of Engineering &amp; the Environment: (legacy) Faculty of Engineering and the Environment - Central</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D756F732D6131:756F732D6172:756F732D6C74</setSpec>
+      <setName>University structure = Faculty of Arts and Humanities: School of Humanities: Film Studies</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D7265736F75726365</setSpec>
+      <setName>Type = Resource</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D636F6C6C656374696F6E</setSpec>
+      <setName>Type = Collection</setName>
+    </set>
+    <set>
+      <setSpec>driver</setSpec>
+      <setName>Open Access DRIVERset</setName>
+    </set>
+  </ListSets>
+</OAI-PMH>

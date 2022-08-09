@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/oai2.xsl"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-08-09T10:03:54Z</responseDate>
+  <request verb="ListSets">napier-repository.worktribe.com</request>
+  <ListSets>
+    <set>
+      <setSpec>066111111107</setSpec>
+      <setName>Type = Book</setName>
+    </set>
+    <set>
+      <setSpec>066111111107032067104097112116101114</setSpec>
+      <setName>Type = Book Chapter</setName>
+    </set>
+    <set>
+      <setSpec>067111110102101114101110099101032080114111099101101100105110103</setSpec>
+      <setName>Type = Conference Proceeding</setName>
+    </set>
+    <set>
+      <setSpec>068097116097115101116</setSpec>
+      <setName>Type = Dataset</setName>
+    </set>
+    <set>
+      <setSpec>068105103105116097108032065114116101102097099116</setSpec>
+      <setName>Type = Digital Artefact</setName>
+    </set>
+    <set>
+      <setSpec>069120104105098105116105111110032047032080101114102111114109097110099101</setSpec>
+      <setName>Type = Exhibition / Performance</setName>
+    </set>
+    <set>
+      <setSpec>074111117114110097108032065114116105099108101</setSpec>
+      <setName>Type = Journal Article</setName>
+    </set>
+    <set>
+      <setSpec>079116104101114</setSpec>
+      <setName>Type = Other</setName>
+    </set>
+    <set>
+      <setSpec>080097116101110116</setSpec>
+      <setName>Type = Patent</setName>
+    </set>
+    <set>
+      <setSpec>080104121115105099097108032065114116101102097099116</setSpec>
+      <setName>Type = Physical Artefact</setName>
+    </set>
+    <set>
+      <setSpec>080114101115101110116097116105111110032047032067111110102101114101110099101</setSpec>
+      <setName>Type = Presentation / Conference</setName>
+    </set>
+    <set>
+      <setSpec>082101112111114116</setSpec>
+      <setName>Type = Report</setName>
+    </set>
+    <set>
+      <setSpec>084104101115105115</setSpec>
+      <setName>Type = Thesis</setName>
+    </set>
+    <set>
+      <setSpec>087111114107105110103032080097112101114</setSpec>
+      <setName>Type = Working Paper</setName>
+    </set>
+    <set>
+      <setSpec>openaire</setSpec>
+      <setName>OpenAIRE</setName>
+    </set>
+    <set>
+      <setSpec>RIOXX</setSpec>
+      <setName>rioxx</setName>
+    </set>
+    <set>
+      <setSpec>openaccess</setSpec>
+      <setName>openAccess</setName>
+    </set>
+  </ListSets>
+</OAI-PMH>

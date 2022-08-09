@@ -1,0 +1,772 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-08-09T10:04:01Z</responseDate>
+  <request verb="ListSets">https://centaur.reading.ac.uk/cgi/oai2</request>
+  <ListSets>
+    <set>
+      <setSpec>7374617475733D696E7072657373</setSpec>
+      <setName>Status = In Press</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D707562</setSpec>
+      <setName>Status = Published</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D756E707562</setSpec>
+      <setName>Status = Unpublished</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6172746566616374</setSpec>
+      <setName>Type = Artefact</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D636F6D706F736974696F6E</setSpec>
+      <setName>Type = Composition</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D617564696F</setSpec>
+      <setName>Type = Audio</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D70726F6A656374</setSpec>
+      <setName>Type = Project</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D626F6F6B</setSpec>
+      <setName>Type = Book</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D7765625F7265736F75726365</setSpec>
+      <setName>Type = Web Resource</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6D6F6E6F6772617068</setSpec>
+      <setName>Type = Report</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6F74686572</setSpec>
+      <setName>Type = Other</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D61727469636C65</setSpec>
+      <setName>Type = Article</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D746865736973</setSpec>
+      <setName>Type = Thesis</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D64617461736574</setSpec>
+      <setName>Type = Dataset</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D61646D696E5F646F63</setSpec>
+      <setName>Type = CentAUR Administrative Document</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D636F6E666572656E63655F6974656D</setSpec>
+      <setName>Type = Conference or Workshop Item</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D626F6F6B5F73656374696F6E</setSpec>
+      <setName>Type = Book or Report Section</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D706174656E74</setSpec>
+      <setName>Type = Patent</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D706572666F726D616E6365</setSpec>
+      <setName>Type = Performance</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D696D616765</setSpec>
+      <setName>Type = Image</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D65786869626974696F6E</setSpec>
+      <setName>Type = Show/Exhibition</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D766964656F</setSpec>
+      <setName>Type = Video</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:375F6666396133653631</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Social</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6432663863303533:345F6732303130613762:345F6832303130613862</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Arts and Communication Design: Art: Fine Art</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3963333830643632</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Aquatic Systems Science Management</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363:355F6132303134613167</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF): Xray (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6534643133646432</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: National Centre for Language and Literacy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:345F7732303130613878</setSpec>
+      <setName>Division = Central Services: Office of the University Secretary</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:345F6532303130613563</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Biodiversity, Crops and Agroecosystems Division- DO NOT USE</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F3735336561343562:355F383236633431343034</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Agri-Food Economics &amp; Marketing: Agricultural and Food Investigational Team (AFIT)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7232303130613364</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Politics, Economics and International Relations</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:355F32303135613162:355F6132303231613163</setSpec>
+      <setName>Division = Science: School of the Built Environment: Urban Living group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6139376664303035:355F32303135613161</setSpec>
+      <setName>Division = Life Sciences: School of Biological Sciences: Department of Bio-Engineering</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3834353336623663</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Phonetics and Phonology Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:345F6732303130613763</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Ageing</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6139376664303035:345F6232303130613262</setSpec>
+      <setName>Division = Life Sciences: School of Biological Sciences: Biomedical Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:345F6332303130613362</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Centre for Food Security</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:375F3037346231396137</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Psychopathology and Affective Neuroscience</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:335F3165313166336430</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Walker Institute</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages </setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F3866393365373565</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: Department of Mathematics and Statistics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363:335F7831393634643364</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science: Social Archaeology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:355F3732323937383063</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Department of Clinical Language Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6338656532366437</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Early Modern Research Centre (EMRC)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6365653230393062</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Institute for Cardiovascular and Metabolic Research (ICMR)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:355F3264613432663131</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Development</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F6465323338386536</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of International Development</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363:355F6132303134613165</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF): Spectrometry (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6432663863303533:355F3131303736326135</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Arts and Communication Design: Film, Theatre &amp; Television</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363:335F7831393634613364</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science: Earth Systems Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3833326135616564</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Nanoscience and Materials</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:355F6732303131613761:355F6D32303131613162</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Humanities: Philosophy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:335F3938626661643430:345F6E32303130623262</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Modern Languages and European Studies: German</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:335F6162656638386435</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for Integrative Neuroscience and Neurodynamics (CINN)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:335F6234366636363730:355F6537366133393133</setSpec>
+      <setName>Division = Central Services: Academic and Governance Services: University Museums and Special Collections</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6437333466346266</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Law</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:355F32303135613163</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Anxiety and Depression in Young People (AnDY)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:345F6432303130613463</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Economic and Social Sciences Division- DO NOT USE</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F3230313561316E</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Pain Research</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839</setSpec>
+      <setName>Division = Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7432303130623762</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: International Study and Language Institute (ISLI)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F6132333461313235</setSpec>
+      <setName>Division = No Reading authors. Back catalogue items</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:335F6234366636363730:355F3231366233336335</setSpec>
+      <setName>Division = Central Services: Academic and Governance Services: Planning and Strategy Office</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F3936363261656231</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: School of Pharmacy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:345F616D313973363432</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: National Centre for Earth Observation (NCEO)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F32303135613167</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Centre for Dairy Research (CEDAR)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:355F32303135613169</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for Book Cultures and Publishing (CBCP)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6432663863303533</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Arts and Communication Design</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:355F3237616466343237</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Department of Psychology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303134613162</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Research Centre for Late Antique and Byzantine Studies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6139376664303035:355F3531636236353462</setSpec>
+      <setName>Division = Life Sciences: School of Biological Sciences: Ecology and Evolutionary Biology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363:335F7831393634633364</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science: Scientific Archaeology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363:355F3434303833636238</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science: Department of Archaeology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6432663863303533:345F6732303130613762</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Arts and Communication Design: Art</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F3735336561343562</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Agri-Food Economics &amp; Marketing</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F613230313461316A</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chaplaincy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F3866393365373565:355F6132303133623162</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: Department of Mathematics and Statistics: Centre for the Mathematics of Human Behaviour (CMOHB)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F6336333538643336</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: Department of Meteorology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F3865326438663831</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Graduate Centre for Medieval Studies (GCMS)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7432303130613564:355F613230313461316B</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Institute of Education: Improving Equity and Inclusion through Education</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F3838663637316539</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: Department of Chemistry</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F6132303231613164</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Sustainable Land Management</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3266343738333435</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Charlie Waller Institute</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233:355F6132303132613163</setSpec>
+      <setName>Division = Henley Business School: Leadership, Organisations and Behaviour</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F3638346638306631</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: Environmental Systems Science Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3435613066633537</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Institute for Sustainable Ecosystems</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6332303130613363</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Modern European Histories and Cultures</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F6132303231613164:355F6239323032386339</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Sustainable Land Management: Centre for Agri-environmental Research (CAER)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:335F6234366636363730:355F3464373032353462</setSpec>
+      <setName>Division = Central Services: Academic and Governance Services: Library</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:355F3230313561316B</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for Health Humanities (CHH)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303133653165</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Winnicott</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3933313437613937</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Research Centre for Evacuee and War Child Studies (ResCEW)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:345F7332303130623662</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : English Literature</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7432303130613564</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Institute of Education</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464</setSpec>
+      <setName>Division = Arts, Humanities and Social Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233</setSpec>
+      <setName>Division = Henley Business School</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:355F32303135613164</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Institute for Food, Nutrition and Health (IFNH)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F3936363261656231:375F3835393234363366</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: School of Pharmacy: Division of Pharmacology</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:335F3938626661643430</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Modern Languages and European Studies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363:355F6132303134613164</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF): NMR (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303133663166</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Energy Research</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:375F6337356662623436</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Perception and Action</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:355F6132303133683168</setSpec>
+      <setName>Division = Central Services: Office of the Vice Chancellor</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6135396161323634</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Food Chain and Health</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363:355F6132303134613166</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF): Thermal (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:335F3938626661643430:355F613230313461316E</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Modern Languages and European Studies: Spanish and Hispanic Studies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430</setSpec>
+      <setName>Division = Interdisciplinary centres and themes</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:355F6732303131613761</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Humanities</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:335F3938626661643430:345F6D32303130623162</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Modern Languages and European Studies: French</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F6331393634643232</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: NCAS</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7632303130613962</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Identities</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3666316465343936</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Poverty, Exclusion and Access</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3966326563666262</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: HyDro Sciences Research Association (HYDRA)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303231613165</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Health Innovation Partnership (HIP)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F6439373632303839</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: Department of Food and Nutritional Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:355F3861333336626465</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Language and Cognition</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233:335F6663663431333665</setSpec>
+      <setName>Division = Henley Business School: ICMA Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F6439373632303839:375F6461613231366530</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: Department of Food and Nutritional Sciences: Food Research Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6432663863303533:345F6732303130613762:355F6234303635653565</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Arts and Communication Design: Art: Art History</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F3866393365373565:355F6538313539383230</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: Department of Mathematics and Statistics: Applied Statistics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F3936363261656231:375F6230643934656630</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: School of Pharmacy: Pharmacy Practice Research Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:335F3036663564383537</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for Literacy and Multilingualism (CeLM)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F6132303134613168</setSpec>
+      <setName>Division = University of Reading Malaysia</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:335F6234366636363730:355F6232326136336436</setSpec>
+      <setName>Division = Central Services: Academic and Governance Services: Student, Learning and Teaching Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F6439373632303839:375F3231383366343833</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: Department of Food and Nutritional Sciences: Human Nutrition Research Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6163396363313365</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Environmental Solutions and Technologies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:335F3938626661643430:345F7032303130623362</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Modern Languages and European Studies: Italian</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:355F32303135613162:355F6132303231613162</setSpec>
+      <setName>Division = Science: School of the Built Environment: Organisation, People and Technology group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303133643164</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Centre for Past Climate Change</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:355F6732303131613761:355F6832303131613861:355F32303135613166</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Humanities: Classics: Ure Museum</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:335F6234366636363730:355F6132303134613169</setSpec>
+      <setName>Division = Central Services: Academic and Governance Services: Centre for Quality Support and Development (CQSD)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:335F6234366636363730</setSpec>
+      <setName>Division = Central Services: Academic and Governance Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6139376664303035</setSpec>
+      <setName>Division = Life Sciences: School of Biological Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F3936363261656231:375F6337653038646139</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: School of Pharmacy: Pharmaceutics Research Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6336393164336262</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: ASD (Autism Spectrum Disorders) Research Network</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:345F6632303130613663:355F3261323261616233</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Animal Sciences: Animal, Dairy and Food Chain Sciences (ADFCS)- DO NOT USE</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:375F3937333861663961</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Nutrition and Health</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233:335F6661303163613639</setSpec>
+      <setName>Division = Henley Business School: Real Estate and Planning</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331</setSpec>
+      <setName>Division = Life Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:345F6632303130613663</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Animal Sciences</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:355F32303135613162:335F3434303033383435</setSpec>
+      <setName>Division = Science: School of the Built Environment: Construction Management and Engineering</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F3936363261656231:375F3661313930303364</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: School of Pharmacy: Medicinal Chemistry Research Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:355F6565393538393132</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Department of Crop Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7232303130613364:355F6132303131613473</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Politics, Economics and International Relations: Economics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303133613161</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Centre for Technologies for Sustainable Built Environments (TSBE)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:345F7232303130623562</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : English Language and Applied Linguistics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:335F6432663863303533:355F3630333835306530</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Arts and Communication Design: Typography &amp; Graphic Communication</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F32303135613165</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Institute for Environmental Analytics (IEA)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:345F7832303130613978</setSpec>
+      <setName>Division = Central Services: Chief Operating Officers Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961</setSpec>
+      <setName>Division = Central Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7232303130613364:355F3230313561316D</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Politics, Economics and International Relations: Ways of War Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:355F6732303131613761:355F6B32303131613961</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Humanities: History</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:335F3438353766363161</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Samuel Beckett Research Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233:355F6132303132613164</setSpec>
+      <setName>Division = Henley Business School: Marketing and Reputation</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032:355F6439373632303839:375F3062356639396433</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy: Department of Food and Nutritional Sciences: Food Microbial Sciences Research Group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7232303130613364:355F6232303131613474</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Politics, Economics and International Relations: Politics and International Relations</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233:355F6132303132613162</setSpec>
+      <setName>Division = Henley Business School: International Business and Strategy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363:345F6132303130613162</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science: Department of Geography and Environmental Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:355F6132303133673167</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for Cognition Research (CCR)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3461633861626233:355F3665336437613237</setSpec>
+      <setName>Division = Life Sciences: School of Psychology and Clinical Language Sciences: Neuroscience</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:355F3230313561316A</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for Film Aesthetics and Cultures (CFAC)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:335F3938626661643430:355F613230313461316D</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Modern Languages and European Studies: Portuguese and Lusophone Studies</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7432303130613564:355F613230313461316C</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Institute of Education: Language and Literacy in Education</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3862313733623961:345F7832303130613978:355F3239653131373733</setSpec>
+      <setName>Division = Central Services: Chief Operating Officers Group: IT Services</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F3134316638303032</setSpec>
+      <setName>Division = Life Sciences: School of Chemistry, Food and Pharmacy</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F7532303130613862</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: Language Text and Power</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:345F6B32303130613962:345F6E32303130613164</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Literature and Languages : Graduate Centre for International Research in Childhood (CIRCL)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6663323264393539:355F6132303134613170</setSpec>
+      <setName>Division = Science: School of Mathematical, Physical and Computational Sciences: Department of Computer Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:335F6630373835613363:335F7831393634623364</setSpec>
+      <setName>Division = Science: School of Archaeology, Geography and Environmental Science: Human Environments</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:345F6D32303130613963</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Soil Research Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D345F7332303130613464:355F6732303131613761:355F6832303131613861</setSpec>
+      <setName>Division = Arts, Humanities and Social Science: School of Humanities: Classics</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363:355F6562663134623631</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF): Electron Microscopy Laboratory (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:355F32303135613162:355F613230313461316F</setSpec>
+      <setName>Division = Science: School of the Built Environment: Architecture</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:355F32303135613162:355F6132303231613161</setSpec>
+      <setName>Division = Science: School of the Built Environment: Energy and Environmental Engineering group</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:355F6132303134613161</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Centre for Economic History</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D355F32303135613168:355F3230313561316C</setSpec>
+      <setName>Division = Interdisciplinary Research Centres (IDRCs): Centre for the Mathematics of Planet Earth (CMPE)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6438633333653731</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Reading Systems Biology Network (RSBN)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3364333030616233:355F6132303132613161</setSpec>
+      <setName>Division = Henley Business School: Business Informatics, Systems and Accounting</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3034326236653964</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: AgeNet</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3239633865353933</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Ecosystems Science</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F6365663364306261</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Computational Sciences Centre</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3435356164306430:335F3035393039393363:355F6132303134613163</setSpec>
+      <setName>Division = Interdisciplinary centres and themes: Chemical Analysis Facility (CAF): Mass Spectrometry (CAF)</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3965653563346331:335F6364343738316161:345F7132303130613264</setSpec>
+      <setName>Division = Life Sciences: School of Agriculture, Policy and Development: Farm Management Unit</setName>
+    </set>
+    <set>
+      <setSpec>6469766973696F6E733D315F3736303833353839:355F32303135613162</setSpec>
+      <setName>Division = Science: School of the Built Environment</setName>
+    </set>
+    <set>
+      <setSpec>driver</setSpec>
+      <setName>Open Access DRIVERset</setName>
+    </set>
+  </ListSets>
+</OAI-PMH>

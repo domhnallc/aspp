@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type='text/xsl' href='oai2.xsl' ?>
+
+
+
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+
+<responseDate>2022-08-09T10:03:56Z</responseDate>
+
+<request verb="ListSets">https://oai.ukdataservice.ac.uk:8443/oai/provider</request>
+
+
+
+<ListSets>
+
+	
+
+		<set> 
+
+			<setSpec>DataCollections</setSpec>	
+
+			<setName>UK Data Service Data Collections</setName>
+
+			<setDescription>
+
+				<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+					<dc:description>Catalogue records for the UK Data Service&#039;s core collection</dc:description>
+
+					<dc:description>This set contains 8875 records</dc:description>
+
+					<dc:identifier>http://ukdataservice.ac.uk/get-data/key-data.aspx</dc:identifier>
+
+					
+
+				</oai_dc:dc>
+
+			</setDescription>
+
+		</set>
+
+	
+
+</ListSets>
+
+
+
+</OAI-PMH>
+
+
+
+
+
+
+
+
+
+ 
+
+
+

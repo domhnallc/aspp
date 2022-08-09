@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-08-09T10:03:47Z</responseDate>
+  <request verb="ListSets">https://repository.jisc.ac.uk/cgi/oai2</request>
+  <ListSets>
+    <set>
+      <setSpec>7374617475733D696E7072657373</setSpec>
+      <setName>Status = In Press</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D7375626D6974746564</setSpec>
+      <setName>Status = Submitted</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D707562</setSpec>
+      <setName>Status = Published</setName>
+    </set>
+    <set>
+      <setSpec>7374617475733D756E707562</setSpec>
+      <setName>Status = Unpublished</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D61646D696E697374726174696F6E</setSpec>
+      <setName>Subject = Administration</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D72657365617263685F64617461</setSpec>
+      <setName>Subject = Research Data</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D7363686F6C61726C795F636F6D6D756E69636174696F6E</setSpec>
+      <setName>Subject = Scholarly Communication</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D6C6561726E696E675F616E645F7465616368696E67</setSpec>
+      <setName>Subject = Learning and Teaching</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D6D756C74696D65646961</setSpec>
+      <setName>Subject = Multimedia</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D696E7465726F705F616E645F696E746567726174696F6E</setSpec>
+      <setName>Subject = Interoperability and Integration</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D6970725F636F70797269676874</setSpec>
+      <setName>Subject = IPR/Copyright</setName>
+    </set>
+    <set>
+      <setSpec>7375626A656374733D6F70656E5F6163636573735F72657365617263685F6F757470757473</setSpec>
+      <setName>Subject = Open Access Research Outputs</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6A6973635F6576656E74</setSpec>
+      <setName>Type = Event</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6A6973635F707562</setSpec>
+      <setName>Type = Publication</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6A6973635F70726F6A656374</setSpec>
+      <setName>Type = Programme/Project deposit</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6A6973635F73657276696365</setSpec>
+      <setName>Type = Service deposit</setName>
+    </set>
+    <set>
+      <setSpec>74797065733D6F74686572</setSpec>
+      <setName>Type = Other</setName>
+    </set>
+    <set>
+      <setSpec>driver</setSpec>
+      <setName>Open Access DRIVERset</setName>
+    </set>
+  </ListSets>
+</OAI-PMH>

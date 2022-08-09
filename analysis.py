@@ -8,7 +8,7 @@ def build_df_from_json(json_file) -> pd.DataFrame:
     return df
 
 def main():
-    df = build_df_from_json('./results/Aug-08-2022_155239_software_records.json')
+    df = build_df_from_json('results/Aug-08-2022_155239_sets_from_endpoints_from_core.json')
 
     #group endpoints by error type
     endpoints_by_error = df.groupby(['Error'], sort=True)

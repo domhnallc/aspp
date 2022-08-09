@@ -1,17 +1,20 @@
-import requests
+from bs4 import BeautifulSoup
 
-def retry_url(url: str):
-    
-    query = "?verb=ListSets"
-    response = requests.post(f"{url}{query}")
-    if response.status_code == 200:
-        return response
-    else:
-        print(f"{response.status_code}{response.content}")
 
 def main():
-    with open("./data/badverbs_from_core.txt", "r") as badverbs:
-        for url in badverbs:
-            print(retry_url(url))
+    doc = '/home/dcarlin/aspp/index.html?verb=ListSets'
+
+    with open(doc) as fp:
+        soup = BeautifulSoup(fp, 'xml')
+        #tag = soup.setSpec
+
+
+        print("a")
+        setSpec = soup.findAll('setSpec')
+
+        for tag in setSpec:
+            print(tag.children)
+
+
 
 main()

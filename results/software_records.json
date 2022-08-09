@@ -1,0 +1,507 @@
+[
+    {
+        "URL": "http://aura.abdn.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://repository.abertay.ac.uk:8080/oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://www.aim25.ac.uk/cgi-bin/oai/OAI2.0\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://repository.alt.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://researchdata.aston.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://publications.aston.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://eprints.bbk.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://www.bopcris.ac.uk/cgi-bin/OAI-XMLFile-2.1/XMLFile/bopcris/oai.pl\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://www.bopcris.ac.uk/cgi-bin/OAI-XMLFile-2.1/XMLFile/parl18c/oai.pl\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://bradscholars.brad.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://rose.bris.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://www.british-history.ac.uk/oai/oai.aspx\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://bear.buckingham.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://cadair.aber.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://eprints.cf.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://epubs.cclrc.ac.uk/oai\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://centaur.reading.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "https://csar.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://openaccess.city.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://clok.uclan.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://cogprints.ecs.soton.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://datastorre.stir.ac.uk/oai/request\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://dera.ioe.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://vle.bromley.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://magpie.lboro.ac.uk:8080/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://dro.dur.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://www.e-space.mmu.ac.uk/e-space-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://www.bopcris.ac.uk/cgi-bin/OAI-XMLFile-2.1/XMLFile/eppi/oai.pl\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://www.epress.ac.uk/phpoai2/oai2.php\n",
+        "Num_sw_records": 0,
+        "Error": "Bad Argument Error"
+    },
+    {
+        "URL": "http://dspace1.isd.glam.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://eprints.gla.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://theses.gla.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://eprints-gro.gold.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://gala.gre.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "https://journals.gre.ac.uk/index.php/gswr/oai\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://hira.hope.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://conferencepapers.shef.ac.uk/index.php/iFutures/index/oai\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "http://eprints.ioe.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "http://eprints.ioe.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "http://iesr.ac.uk/service/iesroai\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://e-learning.coventry.ac.uk/ojs/index.php/joaw/oai\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://OAIscotland.cdlr.strath.ac.uk/services/gateway/hairst.cdlr.strath.ac.uk/repositories/jodi1.xml\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "https://johpec.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "https://jime.open.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "https://jps.bham.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.kcl.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "https://knowlesreview.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://repository-intralibrary.leedsmet.ac.uk/IntraLibrary-OAI\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://lra.le.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://dspace.lboro.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "https://idr.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "https://lawreview.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "https://ppr.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.lse.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "https://upr.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.ma.man.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://eprints.maths.manchester.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://www.mundus.ac.uk/cgi-bin/oai/OAI2.0\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://nectar.northampton.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprint.ncl.ac.uk:9003/\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://eprints.nottingham.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.nottingham.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://etheses.nottingham.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://etheses.nottingham.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://viewer.soton.ac.uk/viewer/oai\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "http://oro.open.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://openair.rgu.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "http://opendocs.ids.ac.uk/oai/request\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "https://ora.ox.ac.uk/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.ouls.ox.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://press-start.gla.ac.uk/index.php/press-start/oai\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "https://pure.manchester.ac.uk/ws/oai\n",
+        "Num_sw_records": 0,
+        "Error": "Bad Argument Error"
+    },
+    {
+        "URL": "https://pure.southwales.ac.uk/ws/oai\n",
+        "Num_sw_records": 0,
+        "Error": "Bad Argument Error"
+    },
+    {
+        "URL": "http://pure.qub.ac.uk/ws/oai\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://eprints.kingston.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://roar.uel.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://eprints.rhul.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "https://ruleoflaw.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.soas.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://dspace.stir.ac.uk/oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "https://sppe.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "https://www.mamsie.bbk.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://sure.sunderland.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://libeprints.open.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "https://psj.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.brighton.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "https://websterreview.lse.ac.uk/jms/index.php/up/oai/\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://digitalcommons.bolton.ac.uk/cgi/oai2.cgi\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://eprints.ucl.ac.uk/perl/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://uhra.herts.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": "404 error"
+    },
+    {
+        "URL": "http://oai.ukdataservice.ac.uk/oai/provider\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://www.repository.uea.ac.uk:80/OAI-PUB\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://research-archive.liv.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://rogue.ncl.ac.uk/xml/index.php\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "http://usir.salford.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://research-repository.st-andrews.ac.uk/dspace-oai/request\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    },
+    {
+        "URL": "http://eprints.dcs.warwick.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "URL error"
+    },
+    {
+        "URL": "https://westminsterresearch.westminster.ac.uk/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "OAI XML Syntax error"
+    },
+    {
+        "URL": "http://etheses.whiterose.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://eprints.whiterose.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": "BadVerbError"
+    },
+    {
+        "URL": "http://wrap.warwick.ac.uk/cgi/oai2\n",
+        "Num_sw_records": 0,
+        "Error": ""
+    }
+]

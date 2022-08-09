@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+		http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2022-08-09T10:03:35Z</responseDate>
+	<request verb="ListSets">https://ecommons.aku.edu/do/oai/</request>
+	
+	<ListSets>
+
+<set>
+	<setSpec>publication:akhs_report</setSpec>
+	<setName>Aga Khan Health Services Reports</setName>
+</set>
+<set>
+	<setSpec>publication:akuh_newsletter</setSpec>
+	<setName>Aga Khan Health Services Newsletters</setName>
+</set>
+<set>
+	<setSpec>publication:aku_nama</setSpec>
+	<setName>AKU-NAMA</setName>
+</set>
+<set>
+	<setSpec>publication:aku_newsletter</setSpec>
+	<setName>AKU Newsletters</setName>
+</set>
+<set>
+	<setSpec>publication:aku_report</setSpec>
+	<setName>AKU Reports</setName>
+</set>
+<set>
+	<setSpec>publication:aku_symposium</setSpec>
+	<setName>AKU Symposium</setName>
+</set>
+<set>
+	<setSpec>publication:aku_symposium_2013_aeme_gallery</setSpec>
+	<setName>Photos from the 2013 AKU Symposium</setName>
+</set>
+<set>
+	<setSpec>publication:alumni_survey</setSpec>
+	<setName>Alumni Surveys</setName>
+</set>
+<set>
+	<setSpec>publication:authors_day</setSpec>
+	<setName>AKU Authors Day</setName>
+</set>
+<set>
+	<setSpec>publication:bmi</setSpec>
+	<setName>Brain and Mind Institute</setName>
+</set>
+<set>
+	<setSpec>publication:book_chapters</setSpec>
+	<setName>Book Chapters / Conference Papers</setName>
+</set>
+<set>
+	<setSpec>publication:books</setSpec>
+	<setName>Books</setName>
+</set>
+<set>
+	<setSpec>publication:ccit_newsletter</setSpec>
+	<setName>CCIT Newsletter</setName>
+</set>
+<set>
+	<setSpec>publication:centres</setSpec>
+	<setName>Centres of Excellence</setName>
+</set>
+<set>
+	<setSpec>publication:cime</setSpec>
+	<setName>Centre for Innovation in Medical Education</setName>
+</set>
+<set>
+	<setSpec>publication:cime_newsletter</setSpec>
+	<setName>CIME Newsletter</setName>
+</set>
+<set>
+	<setSpec>publication:coe-wch</setSpec>
+	<setName>Centre of Excellence in Women and Child Health</setName>
+</set>
+<set>
+	<setSpec>publication:conference_events</setSpec>
+	<setName>Conferences and Symposiums</setName>
+</set>
+<set>
+	<setSpec>publication:covid-19</setSpec>
+	<setName>COVID-19 Research</setName>
+</set>
+<set>
+	<setSpec>publication:crm</setSpec>
+	<setName>Centre for Regenerative Medicine &amp; Stem Cell Research</setName>
+</set>
+<set>
+	<setSpec>publication:ea_publications</setSpec>
+	<setName>AKUH, Nairobi Newsletters</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica</setSpec>
+	<setName>AKU in East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_eai</setSpec>
+	<setName>East Africa Institute</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs</setSpec>
+	<setName>Faculty of Health Sciences, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_fhs</setSpec>
+	<setName>Faculty of Health Sciences, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc</setSpec>
+	<setName>Medical College, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_anaesth</setSpec>
+	<setName>Anaesthesiology, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_emerg_med</setSpec>
+	<setName>Emergency Medicine, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_fam_med</setSpec>
+	<setName>Family Medicine, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_gen_surg</setSpec>
+	<setName>General Surgery, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_imaging_diagn_radiol</setSpec>
+	<setName>Imaging &amp; Diagnostic Radiology, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_intern_med</setSpec>
+	<setName>Internal Medicine, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_obstet_gynaecol</setSpec>
+	<setName>Obstetrics and Gynaecology, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_paediatr_child_health</setSpec>
+	<setName>Paediatrics and Child Health, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_pathol</setSpec>
+	<setName>Pathology, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_mc_popul_health</setSpec>
+	<setName>Population Health, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_fhs_sonam</setSpec>
+	<setName>School of Nursing &amp; Midwifery, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_gsmc</setSpec>
+	<setName>Graduate School of Media and Communications</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_ied</setSpec>
+	<setName>Institute for Educational Development, East Africa</setName>
+</set>
+<set>
+	<setSpec>publication:eastafrica_ihd</setSpec>
+	<setName>Institute for Human Development</setName>
+</set>
+<set>
+	<setSpec>publication:environment</setSpec>
+	<setName>Environment and Sustainability</setName>
+</set>
+<set>
+	<setSpec>publication:fmic_reports</setSpec>
+	<setName>FMIC Reports</setName>
+</set>
+<set>
+	<setSpec>publication:ighd</setSpec>
+	<setName>Institute for Global Health and Development</setName>
+</set>
+<set>
+	<setSpec>publication:impact</setSpec>
+	<setName>IMPACT</setName>
+</set>
+<set>
+	<setSpec>publication:inspire</setSpec>
+	<setName>INSPIRE</setName>
+</set>
+<set>
+	<setSpec>publication:in_vision</setSpec>
+	<setName>IN-VISION</setName>
+</set>
+<set>
+	<setSpec>publication:jam</setSpec>
+	<setName>Journal of Asian Midwives (JAM)</setName>
+</set>
+<set>
+	<setSpec>publication:jmcmw</setSpec>
+	<setName>Journal of Material Cultures in the Muslim World</setName>
+</set>
+<set>
+	<setSpec>publication:labrad</setSpec>
+	<setName>LABRAD</setName>
+</set>
+<set>
+	<setSpec>publication:libraries</setSpec>
+	<setName>Libraries</setName>
+</set>
+<set>
+	<setSpec>publication:library_events</setSpec>
+	<setName>Library Events</setName>
+</set>
+<set>
+	<setSpec>publication:library_newsletter</setSpec>
+	<setName>Library Newsletter</setName>
+</set>
+<set>
+	<setSpec>publication:nutrition_update</setSpec>
+	<setName>Nutrition Update</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan</setSpec>
+	<setName>AKU in Pakistan</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_eb</setSpec>
+	<setName>Examination Board</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs</setSpec>
+	<setName>Faculty of Health Sciences</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc</setSpec>
+	<setName>Medical College, Pakistan</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_anaesth</setSpec>
+	<setName>Department of Anaesthesia</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_bbs</setSpec>
+	<setName>Department of Biological &amp; Biomedical Sciences</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_chs</setSpec>
+	<setName>Department of Community Health Sciences</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_chs_ceu</setSpec>
+	<setName>Clinical Epidemiology Unit</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_chs_chs</setSpec>
+	<setName>Community Health Sciences</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_cpe</setSpec>
+	<setName>Department of Continuing Professional Education</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_ded</setSpec>
+	<setName>Department for Educational Development</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_emerg_med</setSpec>
+	<setName>Department of Emergency Medicine</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_fam_med</setSpec>
+	<setName>Department of Family Medicine</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_fmic</setSpec>
+	<setName>French Medical Institute for Children (FMIC)</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_hdp</setSpec>
+	<setName>Human Development Programme</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_mc</setSpec>
+	<setName>Medical College Documents</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med</setSpec>
+	<setName>Department of Medicine</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_cardiol</setSpec>
+	<setName>Section of Cardiology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_diabet_endocrinol_metab</setSpec>
+	<setName>Section of Diabetes, Endocrinology and Metabolism</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_gastroenterol</setSpec>
+	<setName>Section of Gastroenterology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_haematol_oncol</setSpec>
+	<setName>Section of Haematology/Oncology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_intern_med</setSpec>
+	<setName>Section of Internal Medicine</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_med</setSpec>
+	<setName>Department of Medicine</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_nephrol</setSpec>
+	<setName>Section of Nephrology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_neurol</setSpec>
+	<setName>Section of Neurology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_med_pulm_critcare</setSpec>
+	<setName>Section of Pulmonary &amp; Critical Care</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_ophthalmol</setSpec>
+	<setName>Department of Ophthalmology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_pathol_microbiol</setSpec>
+	<setName>Department of Pathology and Laboratory Medicine</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_pgme</setSpec>
+	<setName>PGME Gastroenterology Training Programme</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_psychiatry</setSpec>
+	<setName>Department of Psychiatry</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_radiat_oncol</setSpec>
+	<setName>Department of Radiation Oncology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_radiol</setSpec>
+	<setName>Department of Radiology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg</setSpec>
+	<setName>Department of Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_breast</setSpec>
+	<setName>Section of Breast Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_cardiothoracic</setSpec>
+	<setName>Section of Cardiothoracic Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_dent_oral_maxillofac</setSpec>
+	<setName>Section of Dental-Oral Maxillofacial Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_gen</setSpec>
+	<setName>Section of General Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_neurosurg</setSpec>
+	<setName>Section of Neurosurgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_orthop</setSpec>
+	<setName>Section of Orthopaedic Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_otolaryngol_head_neck</setSpec>
+	<setName>Section of Otolaryngology, Head &amp; Neck Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_paediatr</setSpec>
+	<setName>Section of Paediatric Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_surg</setSpec>
+	<setName>Department of Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_urol</setSpec>
+	<setName>Section of Urology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_surg_vasc</setSpec>
+	<setName>Section of Vascular Surgery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_women_childhealth</setSpec>
+	<setName>Division of Woman and Child Health</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_women_childhealth_obstet_gynaecol</setSpec>
+	<setName>Department of Obstetrics &amp; Gynaecology</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_women_childhealth_paediatr</setSpec>
+	<setName>Department of Paediatrics and Child Health</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_mc_women_childhealth_wc</setSpec>
+	<setName>Woman and Child Health</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_fhs_son</setSpec>
+	<setName>School of Nursing &amp; Midwifery</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_ied</setSpec>
+	<setName>Institute for Educational Development</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_ied_pdcc</setSpec>
+	<setName>Professional Development Centre, Chitral</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_ied_pdck</setSpec>
+	<setName>Institute for Educational Development, Karachi</setName>
+</set>
+<set>
+	<setSpec>publication:pakistan_ied_pdcn</setSpec>
+	<setName>Professional Development Centre, Gilgit</setName>
+</set>
+<set>
+	<setSpec>publication:pharmacy_newsletter</setSpec>
+	<setName>Pharmacy Newsletter</setName>
+</set>
+<set>
+	<setSpec>publication:pjns</setSpec>
+	<setName>Pakistan Journal of Neurological Sciences (PJNS)</setName>
+</set>
+<set>
+	<setSpec>publication:pk_pgme_gastro_alumni</setSpec>
+	<setName>PGME Gastroenterology Training Programme - Alumni</setName>
+</set>
+<set>
+	<setSpec>publication:pk_pgme_gastro_directors</setSpec>
+	<setName>PGME Gastroenterology Training Programme - Directors</setName>
+</set>
+<set>
+	<setSpec>publication:provost_office</setSpec>
+	<setName>Office of the Provost</setName>
+</set>
+<set>
+	<setSpec>publication:publications</setSpec>
+	<setName>Publications (Newsletters &amp; Reports)</setName>
+</set>
+<set>
+	<setSpec>publication:research_office</setSpec>
+	<setName>Office of the Research</setName>
+</set>
+<set>
+	<setSpec>publication:research_outlook</setSpec>
+	<setName>Office of Research and Graduate Studies</setName>
+</set>
+<set>
+	<setSpec>publication:selectedworks_slideshow</setSpec>
+	<setName>SelectedWorks Slideshow</setName>
+</set>
+<set>
+	<setSpec>publication:surgery_newsletter</setSpec>
+	<setName>Surgery Newsletter</setName>
+</set>
+<set>
+	<setSpec>publication:theses_dissertations</setSpec>
+	<setName>Theses &amp; Dissertations</setName>
+</set>
+<set>
+	<setSpec>publication:uk</setSpec>
+	<setName>AKU in UK</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc</setSpec>
+	<setName>Institute for the Study of Muslim Civilisations</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_faculty_publications</setSpec>
+	<setName>Faculty &amp; Staff Publications</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series</setSpec>
+	<setName>ISMC Series</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series_emc</setSpec>
+	<setName>Exploring Muslim Contexts</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series_intranslation</setSpec>
+	<setName>In Translation: Modern Muslim Thinkers</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series_mca</setSpec>
+	<setName>Muslim Civilisations Abstracts</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series_music</setSpec>
+	<setName>Music &amp; Performance in Muslim Contexts</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series_ops</setSpec>
+	<setName>Abdou Filali-Ansary Occasional Paper Series</setName>
+</set>
+<set>
+	<setSpec>publication:uk_ismc_series_volumes</setSpec>
+	<setName>Individual Volumes</setName>
+</set>	</ListSets>
+</OAI-PMH>

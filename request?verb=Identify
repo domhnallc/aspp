@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href='static/style.xsl' type='text/xsl'?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2022-08-09T10:04:07Z</responseDate><request verb="Identify">http://amber.openrepository.com/oai/request</request><Identify><repositoryName>Ambulance Research Repository</repositoryName><baseURL>http://amber.openrepository.com/oai/request</baseURL><protocolVersion>2.0</protocolVersion><adminEmail>library@nwas.nhs.uk</adminEmail><earliestDatestamp>2019-06-11T15:05:20Z</earliestDatestamp><deletedRecord>transient</deletedRecord><granularity>YYYY-MM-DDThh:mm:ssZ</granularity><description><oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+<scheme>oai</scheme>
+<repositoryIdentifier>amber.openrepository.com</repositoryIdentifier>
+<delimiter>:</delimiter>
+<sampleIdentifier>oai:amber.openrepository.com:20.500.12417/1234</sampleIdentifier>
+</oai-identifier></description></Identify></OAI-PMH>
