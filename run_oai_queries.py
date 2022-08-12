@@ -6,18 +6,17 @@ import oai_pmh_queries
 from oah_endpoints import *
 from oai_pmh_queries import *
 from oaipmh.client import WAIT_MAX
-json_file_out = f"./results/{time.strftime('%b-%d-%Y_%H%M%S', time.localtime())}_software_records.json"
-#endpoints_list_file = "./results/endpoints.txt"
-#endpoints_list_file = "data/openaire_datasources_uk_institutes_oai.txt"
-endpoints_list_file = "data/oaipmhurls_from_core_api"
+
+json_file_out = f"./results/{time.strftime('%b-%d-%Y_%H%M%S', time.localtime())}_software_recs_postcorrection.json"
+# endpoints_list_file = "./results/endpoints.txt"
+# endpoints_list_file = "data/openaire_datasources_uk_institutes_oai.txt"
+endpoints_list_file = "data/oaipmhurls_from_core_api_errorCorrected"
 reg_data_providers = './data/oai-omh_reg_data_providers_filtered_ac_uk_only.xlsx'
 
 """
 Runs a query for each OAI_PMH URL taken from oai-omh_reg_data_providers for research output of type Software from 
 endpoints ending with .ac.uk (i.e. UK academic institutions) 
 """
-
-
 
 
 def main():
@@ -29,15 +28,16 @@ def main():
 
     num_endpoints = get_num_endpoints()
 
-    #get all sets from endpoints
-    sets = get_sets_from_endpoints(num_endpoints)
-    write_to_file(sets, json_file_out)
+    # get all sets from endpoints
+    # sets = get_sets_from_endpoints(num_endpoints)
+    # write_to_file(sets, json_file_out)
 
     # get all software recs from endpoints
-    # total_sw_recs = count_software_records_in_endpoints(num_endpoints)
-    # write_to_file(total_sw_recs, json_file_out)
+    total_sw_recs = get_data_from_endpoints(num_endpoints)
+    write_to_file(total_sw_recs, json_file_out)
 
-#TODO: refactor these two to enable reuse with single option
+
+# TODO: refactor these two to enable reuse with single option
 def get_sets_from_endpoints(num_endpoints) -> list:
     all_output = []
     with open(endpoints_list_file) as all_endpoints:
@@ -49,6 +49,7 @@ def get_sets_from_endpoints(num_endpoints) -> list:
             counter += 1
     return all_output
 
+
 def get_data_from_endpoints(num_endpoints) -> list:
     all_output = []
     with open(endpoints_list_file) as all_endpoints:
@@ -59,6 +60,7 @@ def get_data_from_endpoints(num_endpoints) -> list:
             # get_software_set(url)
             counter += 1
     return all_output
+
 
 def get_num_endpoints():
     with open(endpoints_list_file) as all_endpoints:

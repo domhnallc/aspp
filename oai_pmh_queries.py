@@ -17,7 +17,8 @@ def get_software_set(oai_url):
     try:
         print(f"[] Getting sets from {oai_url}")
         client = Client(oai_url, registry)
-        output = {"URL": oai_url,
+        output = {"Repo name":client.identify().repositoryName(),
+                  "URL": oai_url,
                   "Sets": None,
                   "Error": "No error"
                   }
