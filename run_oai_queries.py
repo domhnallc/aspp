@@ -7,7 +7,7 @@ from oah_endpoints import *
 from oai_pmh_queries import *
 from oaipmh.client import WAIT_MAX
 
-json_file_out = f"./results/{time.strftime('%b-%d-%Y_%H%M%S', time.localtime())}_software_recs_postcorrection.json"
+json_file_out = f"./results/{time.strftime('%b-%d-%Y_%H%M%S', time.localtime())}_software_sets.json"
 # endpoints_list_file = "./results/endpoints.txt"
 # endpoints_list_file = "data/openaire_datasources_uk_institutes_oai.txt"
 endpoints_list_file = "data/oaipmhurls_from_core_api_errorCorrected"
@@ -29,12 +29,12 @@ def main():
     num_endpoints = get_num_endpoints()
 
     # get all sets from endpoints
-    # sets = get_sets_from_endpoints(num_endpoints)
-    # write_to_file(sets, json_file_out)
+    sets = get_sets_from_endpoints(num_endpoints)
+    write_to_file(sets, json_file_out)
 
     # get all software recs from endpoints
-    total_sw_recs = get_data_from_endpoints(num_endpoints)
-    write_to_file(total_sw_recs, json_file_out)
+    #total_sw_recs = get_data_from_endpoints(num_endpoints)
+    #write_to_file(total_sw_recs, json_file_out)
 
 
 # TODO: refactor these two to enable reuse with single option

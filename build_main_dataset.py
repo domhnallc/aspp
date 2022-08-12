@@ -1,6 +1,6 @@
 import json
 
-test_json = "data/test_json_sets.json"
+test_json = "results/Aug-12-2022_152339_software_sets.json"
 def check_sets_contain_software(path_to_json_set_file: str) -> bool:
     set_contains_software = False
 

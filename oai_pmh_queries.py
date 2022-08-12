@@ -17,23 +17,25 @@ def get_software_set(oai_url):
     try:
         print(f"[] Getting sets from {oai_url}")
         client = Client(oai_url, registry)
-        output = {"Repo name":client.identify().repositoryName(),
-                  "URL": oai_url,
+        output = {"URL": oai_url,
                   "Sets": None,
                   "Error": "No error"
                   }
         tuple_holder = []
         for i in client.listSets():
-            #print(i)
-            tuple_holder.append(i)
+            set_values = {"setSpec": i[0],
+                          "setName": i[1],
+                          "setDesc": i[2]
+                          }
+            tuple_holder.append(set_values)
         output['Sets'] = tuple_holder
-        #print(tuple_holder)
+        # print(tuple_holder)
 
     except error.NoRecordsMatchError:
-    # print(f"{oai_url} No records")
+        # print(f"{oai_url} No records")
         pass
     except error.BadVerbError:
-    # error_urls.append(oai_url)
+        # error_urls.append(oai_url)
         output["Error"] = "BadVerbError"
         pass
     except error.NoSetHierarchyError:
