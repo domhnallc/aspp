@@ -81,7 +81,6 @@ def get_software_set(oai_url):
     return output
 
 
-
 def get_software_records(oai_url):
     num_software_records = 0
     client = Client(oai_url, registry)
