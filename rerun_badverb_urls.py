@@ -3,7 +3,7 @@ import os
 from bs4 import BeautifulSoup
 
 """
-Parses all files in ./bad_verb_responses to pull out setName and setSpec values, to add to ./results
+Parses all files in ./bad_verb_responses/* to pull out setName and setSpec values, to add to ./results
 """
 
 
@@ -14,7 +14,7 @@ def main():
             xml_file = os.path.join(root, file)
             parsed = get_setSpec_setName(xml_file)
             all_records.append(parsed)
-    write_to_file(file_to_write='./results/10Aug_bad_verb_parsed_sets.json', repos=all_records)
+    write_to_file(file_to_write='./results/23Aug_bad_verb_parsed_sets.json', repos=all_records)
 
 
 def write_to_file(file_to_write: str, repos: list):
@@ -47,7 +47,7 @@ def get_setSpec_setName(doc: str) -> list:
         for i in range(0, len(setName) - 1, 1):
             spec = setSpec[i].contents[0]
             name = setName[i].contents[0]
-            individual_set = [spec, name, None]
+            individual_set = {"setSpec":spec, "setName":name, "setDesc":None}
             all_sets.append(individual_set)
 
         return repo_sets
