@@ -14,7 +14,7 @@ endpoints_list_file = "data/oaipmhurls_from_core_api_errorCorrected"
 reg_data_providers = './data/oai-omh_reg_data_providers_filtered_ac_uk_only.xlsx'
 
 """
-Runs a query for each OAI_PMH URL taken from oai-omh_reg_data_providers for research output of type Software from 
+Runs a query for each OAI_PMH URL taken from ./data/oai-omh_reg_data_providers for research output of type Software from 
 endpoints ending with .ac.uk (i.e. UK academic institutions) 
 """
 

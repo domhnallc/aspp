@@ -1,0 +1,22 @@
+Error url, RIS type, manual check detail, notes
+https://researchportal.port.ac.uk/ws/oai, pure, no oai, 
+https://orda.shef.ac.uk/, bespoke, no oai, 
+https://openresearch.surrey.ac.uk/, Exlibris (Clarivate), no oai, NO SOFTWARE TYPE
+https://edshare.gcu.ac.uk/cgi/oai2, oai, oai,  oai working except listSets
+http://eprints.st-andrews.ac.uk/perl/oai2, , , redirects to https://research-repository.st-andrews.ac.uk/ which doesnt include software- but https://risweb.st-andrews.ac.uk/portal/en/ does
+http://dspace1.isd.glam.ac.uk/dspace-oai/request, doesnt exist, doesnt exist, now uni of south wales
+http://publications.eng.cam.ac.uk/cgi/oai2, doesnt exist, doesnt exist, see main cam.ac.uk
+https://pure.royalholloway.ac.uk/ws/oai, pure, bad response- pure, try https://pure.royalholloway.ac.uk/
+https://publications.icr.ac.uk, doesnt exist, doesnt exist, see https://repository.icr.ac.uk
+http://ssudl.solent.ac.uk/cgi/oai2, pure, link doesnt exist, see https://pure.solent.ac.uk/
+https://repository.royalholloway.ac.uk/p/oai, , see pure.holloway
+http://eprintsdemo.wwwconf.ecs.soton.ac.uk/per, doesnt exist, doesnt exist, deleted
+http://cogprints.ecs.soton.ac.uk/perl/oai2, doesnt exist, doesnt exist, deleted
+http://eprints.adastral.ucl.ac.uk/cgi/oai2, doesnt exist, doesnt exist, already ucl entry -deleted
+https://repository.cardiffmet.ac.uk/dspace-oai,doesnt exist, doesnt exist,now https://figshare.cardiffmet.ac.uk/
+http://dspace.man.ac.uk:8080/dspace-oai/request, doesnt exist, doesnt exist, now https://www.research.manchester.ac.uk/portal (pure)
+http://journals.northampton.ac.uk/index.php/in, doesnt exist, doesnt exist, now pure.northampton.ac.uk
+
+
+
+

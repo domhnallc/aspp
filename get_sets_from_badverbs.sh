@@ -5,6 +5,6 @@ lines=$(cat $file)
 
 for line in $lines
 do
-	wget $line
+	wget "$line"
 done
 
