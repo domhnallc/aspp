@@ -21,15 +21,15 @@ def get_software_set(oai_url):
                   "Sets": None,
                   "Error": "No error"
                   }
-        tuple_holder = []
+        set_data_holder = []
         for i in client.listSets():
             set_values = {"setSpec": i[0],
                           "setName": i[1],
                           "setDesc": i[2]
                           }
-            tuple_holder.append(set_values)
-        output['Sets'] = tuple_holder
-        # print(tuple_holder)
+            set_data_holder.append(set_values)
+        output['Sets'] = set_data_holder
+        # print(set_data_holder)
 
     except error.NoRecordsMatchError:
         # print(f"{oai_url} No records")
@@ -79,6 +79,7 @@ def get_software_set(oai_url):
         output["Error"] = "ValueError unknown url type"
         pass
     return output
+
 
 
 def get_software_records(oai_url):
