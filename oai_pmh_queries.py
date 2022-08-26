@@ -6,6 +6,8 @@ from oaipmh.metadata import MetadataRegistry, oai_dc_reader
 from oaipmh import error
 from urllib import error as urlerror
 
+
+
 registry = MetadataRegistry()
 registry.registerReader('oai_dc', oai_dc_reader)
 SOFTWARE_SET = '74797065733D736F667477617265'
@@ -90,6 +92,7 @@ def get_software_records(oai_url):
               "Error": "No error"
               }
     try:
+        client.listRecords(metadataPrefix='oai_dc', set=SOFTWARE_SET)
 
         for record in client.listRecords(metadataPrefix='oai_dc', set=SOFTWARE_SET):
             num_software_records += 1

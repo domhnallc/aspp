@@ -1,6 +1,7 @@
 import json
 
 import pandas as pd
+from core_api_queries.core_query import get_API_Key, get_core_providers_details, base_query_api
 
 sware_sets = "./results/Aug-12-2022_152339_software_sets.json"
 sware_recs = "results/Aug-11-2022_164215_software_recs_postcorrection.json"
@@ -49,12 +50,21 @@ def strip_url_newline(df_in):
     return df_in
 
 def main():
-    ## SOFTWARE SETS
+    """ Build main research dataset """
 
+    #### CORE DATA PROVIDERS ####
+    df_all_provider_details = pd.DataFrame.from_dict(get_core_providers_details('gb'))
+    df_all_provider_details.rename(columns= {'oaiPmhUrl':'URL'},inplace=True)
+    strip_http(df_all_provider_details)
+    strip_https(df_all_provider_details)
+    df_all_provider_details.set_index(keys='URL', inplace=True)
+
+
+    #### SOFTWARE SETS ####
     # check main sets response contains software set
     df_sets_contain_software = pd.DataFrame.from_dict(check_sets_contain_software(sware_sets))
 
-    # remove http(s)
+    # remove http(s) and newline from url
     strip_http(df_sets_contain_software)
     strip_https(df_sets_contain_software)
     strip_url_newline(df_sets_contain_software)
@@ -70,20 +80,20 @@ def main():
     df_main_and_badverb_sets = pd.concat(
         [df_sets_contain_software[~df_sets_contain_software.index.isin(df_bad_verb_contain_sware.index)],
          df_bad_verb_contain_sware])
+    df_all = pd.merge(df_all_provider_details, df_main_and_badverb_sets, how='outer', on='URL')
 
-    df_main_and_badverb_sets.to_csv("./all_software_sets_23-8-22.csv")
+    ##### SOFTWARE RECORDS ####
 
-    ## SOFTWARE RECORDS
     # get main response software recs
     df_main_software_recs = pd.read_json(sware_recs)
     strip_http(df_main_software_recs)
     strip_https(df_main_software_recs)
     strip_url_newline(df_main_software_recs)
     df_main_software_recs.set_index(keys='URL', inplace=True)
-
+    df_main_software_recs.to_csv("./main_sware_recs.csv")
     # get bad verb software recs
 
-    # df_sets_and_recs = pd.merge(df_main_and_badverb_sets, df_main_software_recs, how='outer', on='URL')
-
+    df_details_sets_and_recs = pd.merge(df_all, df_main_software_recs, how='outer', on='URL')
+    df_details_sets_and_recs.to_csv("./details_sets_and_recs.csv")
 
 main()
