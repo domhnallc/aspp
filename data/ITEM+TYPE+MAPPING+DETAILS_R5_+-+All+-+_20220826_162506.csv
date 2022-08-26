@@ -1,0 +1,12 @@
+﻿Report_Name,"Item type mapping details"
+Institution_Name," - All - "
+Repository_Name," - All - "
+Item_Type,Software
+Source_Item_Type,Software||NonPeerReviewed||public
+Created,2022-08-26T16:25:06Z
+Created_By,IRUS
+
+Title,Authors,Year_Of_Publication,Repository,OAI_ID,URI
+"A Java-based VST Host. VST instruments and effects can be loaded and manipulated by this library in Linux, OS X, and Windows","Roth, Martin; Yee-King, Matthew",2008,"Goldsmiths Research Online",oai:eprints.gold.ac.uk:19129,https://research.gold.ac.uk/id/eprint/19129/
+"Cinder - augmented reality mirror","Papatheodorou, Theodoros; Tom, Chambers",2016,"Goldsmiths Research Online",oai:eprints.gold.ac.uk:22690,https://research.gold.ac.uk/id/eprint/22690/
+"Trieste interactive museum exhibit","Papatheodorou, Theodoros; Tom, Chambers",2017,"Goldsmiths Research Online",oai:eprints.gold.ac.uk:22689,https://research.gold.ac.uk/id/eprint/22689/

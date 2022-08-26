@@ -7,6 +7,7 @@ sware_sets = "./results/Aug-12-2022_152339_software_sets.json"
 sware_recs = "results/Aug-11-2022_164215_software_recs_postcorrection.json"
 
 bad_verb_sware_sets = "./results/23Aug_bad_verb_parsed_sets.json"
+bad_verb_sware_recs = "./data/badverbs_from_core_manual_check_for_sware_recs.csv"
 
 
 def check_sets_contain_software(path_to_json_set_file: str) -> list:
@@ -91,9 +92,16 @@ def main():
     strip_url_newline(df_main_software_recs)
     df_main_software_recs.set_index(keys='URL', inplace=True)
     df_main_software_recs.to_csv("./main_sware_recs.csv")
+
     # get bad verb software recs
+    df_manual_software_recs = pd.read_csv(bad_verb_sware_recs)
+    strip_http(df_manual_software_recs)
+    strip_https(df_manual_software_recs)
+    df_manual_software_recs.set_index(keys='URL', inplace=True)
+
 
     df_details_sets_and_recs = pd.merge(df_all, df_main_software_recs, how='outer', on='URL')
-    df_details_sets_and_recs.to_csv("./details_sets_and_recs.csv")
+    df_complete_data = pd.merge(df_details_sets_and_recs, df_manual_software_recs, how='outer', on='URL')
+    df_complete_data.to_csv("./complete_dataset.csv")
 
 main()
