@@ -30,15 +30,6 @@ def get_entity(url_fragment):
         print(f"Error code {response.status_code}, {response.content}")
 
 
-def main():
-    # get all data providers in uk
-    get_core_providers_details()
-    # print(provider['oaiPmhUrl'] for provider in results['results'])
-    # get_all_oaiPmhUrls(results)
-
-    # get_known_software_from_core()
-
-
 def get_core_providers_details(country_code) -> list:
     """ Gets all descriptive details for all Core.ac.uk UK-based data providers"""
     results = base_query_api("search/data-providers", "location.countryCode:" + country_code)
@@ -65,6 +56,16 @@ def get_all_oaiPmhUrls(results):
         all_oaiPmhUrls.append(oaiPmhUrl)
 
     return all_oaiPmhUrls
+
+
+def main():
+    # get all data providers in uk
+    print(get_core_providers_details('GB'))
+    # print(provider['oaiPmhUrl'] for provider in results['results'])
+    # get_all_oaiPmhUrls(results)
+
+    # get_known_software_from_core()
+
 
 
 if __name__ == '__main__':
