@@ -54,7 +54,7 @@ def main():
     """ Build main research dataset """
 
     #### CORE DATA PROVIDERS ####
-    df_all_provider_details = pd.DataFrame.from_dict(get_core_providers_details('gb'))
+    df_all_provider_details = pd.DataFrame.from_dict(get_core_providers_details('gb'), get_API_Key())
     df_all_provider_details.rename(columns= {'oaiPmhUrl':'URL'},inplace=True)
     strip_http(df_all_provider_details)
     strip_https(df_all_provider_details)
@@ -62,6 +62,7 @@ def main():
 
 
     #### SOFTWARE SETS ####
+    
     # check main sets response contains software set
     df_sets_contain_software = pd.DataFrame.from_dict(check_sets_contain_software(sware_sets))
 
