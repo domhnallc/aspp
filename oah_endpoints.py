@@ -1,6 +1,9 @@
 import pandas as pd
 
 
+'''NOT USED - OAI-PMH REGISTERED DATA PROVIDERS FOUND TO BE OUT OF DATE AND MISSING MUCH DETAIL'''
+
+
 def write_endpoint_file(list_of_endpoints: list, file_to_write: str):
     """ Writes a simple text file with all OAI urls taken from list_of_endpoints
     :param list_of_endpoints: the stripped list of urls
