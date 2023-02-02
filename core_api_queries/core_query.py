@@ -4,7 +4,9 @@ import pprint
 
 API_ENDPOINT = "https://api.core.ac.uk/v3/"
 
-'''Functions to retrieve data from CORE API v3. Authorised using the ./apikey from core.ac.uk.'''
+'''Functions to retrieve data from CORE API v3. Authorised using the ./apikey from core.ac.uk.
+Based on examples provided by CORE at https://github.com/oacore/apiv3-webinar/
+'''
 
 def get_API_Key() -> str:
     '''Retrieve the API key from project root folder.'''
