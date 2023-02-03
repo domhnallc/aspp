@@ -2,8 +2,7 @@
 This code was used to generate the dataset for our paper, under review at PeerJ Computer Science, titled "Where is all the research software? An
 analysis of software in UK academic repositories."
 
-**Important Files
-**
+**Important Files**
 
 **core_api_queries.core_query.pi:**
 
