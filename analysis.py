@@ -33,5 +33,5 @@ def write_badverb_urls_to_file(core_endpoints_sets_df):
         for line in badverbs['URL']:
             bvfile.write(line)
 
-
-main()
+if __name__ == 'main':
+    main()

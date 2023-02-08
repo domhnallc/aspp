@@ -6,14 +6,18 @@ from oaipmh.metadata import MetadataRegistry, oai_dc_reader
 from oaipmh import error
 from urllib import error as urlerror
 
-
+'''
+Queries for determining:
+(1) if the set named software is present in the OAI endpoint 
+(2) the number of software records under that set stored in the repo
+'''
 
 registry = MetadataRegistry()
 registry.registerReader('oai_dc', oai_dc_reader)
 SOFTWARE_SET = '74797065733D736F667477617265'
 
 
-def get_software_set(oai_url):
+def get_software_set(oai_url: str) -> list:
     error_urls = []
 
     try:
@@ -83,7 +87,7 @@ def get_software_set(oai_url):
     return output
 
 
-def get_software_records(oai_url):
+def get_software_records(oai_url: str) -> list:
     num_software_records = 0
     client = Client(oai_url, registry)
     error_urls = []
