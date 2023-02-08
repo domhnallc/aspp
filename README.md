@@ -11,7 +11,7 @@ Based on examples provided by CORE at https://github.com/oacore/apiv3-webinar/
 
 **submission dataset_release_v1.csv:**
 
-The dataset built in this research.  The base dataset can be created using create_base_data_set.py, which retrieves metadata from 
+The dataset built in this research.  The base dataset can be created using create_base_data_set.py, which retrieves metadata from Core.ac.uk on all repositories from the UK within their platform.  This was further manually edited to remove non-academic institutes.
 
 Cite as:
 
