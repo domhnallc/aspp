@@ -3,10 +3,10 @@ import json
 import pandas as pd
 from core_api_queries.core_query import get_API_Key, get_core_providers_details, base_query_api
 
-sware_sets = "./software_sets.json"
-sware_recs = "software_recs.json"
+sware_sets = "./data/software_sets.json"
+sware_recs = "./data/software_recs.json"
 
-bad_verb_sware_sets = "./bad_verb_parsed_sets.json"
+bad_verb_sware_sets = "./data/bad_verb_parsed_sets.json"
 bad_verb_sware_recs = "./data/badverbs_from_core_manual_check_for_sware_recs.csv"
 
 
@@ -106,4 +106,5 @@ def main():
     df_complete_data = pd.merge(df_details_sets_and_recs, df_manual_software_recs, how='outer', on='URL')
     df_complete_data.to_csv("./results/dataset.csv")
 
-main()
+if __name__ = 'main':
+    main()
