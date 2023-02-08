@@ -3,10 +3,10 @@ import json
 import pandas as pd
 from core_api_queries.core_query import get_API_Key, get_core_providers_details, base_query_api
 
-sware_sets = "./results/Aug-12-2022_152339_software_sets.json"
-sware_recs = "results/Aug-11-2022_164215_software_recs_postcorrection.json"
+sware_sets = "./software_sets.json"
+sware_recs = "software_recs.json"
 
-bad_verb_sware_sets = "./results/23Aug_bad_verb_parsed_sets.json"
+bad_verb_sware_sets = "./bad_verb_parsed_sets.json"
 bad_verb_sware_recs = "./data/badverbs_from_core_manual_check_for_sware_recs.csv"
 
 
@@ -92,7 +92,7 @@ def main():
     strip_https(df_main_software_recs)
     strip_url_newline(df_main_software_recs)
     df_main_software_recs.set_index(keys='URL', inplace=True)
-    df_main_software_recs.to_csv("./main_sware_recs.csv")
+    df_main_software_recs.to_csv("./results/main_sware_recs.csv")
 
     # get bad verb software recs
     df_manual_software_recs = pd.read_csv(bad_verb_sware_recs)
@@ -100,9 +100,10 @@ def main():
     strip_https(df_manual_software_recs)
     df_manual_software_recs.set_index(keys='URL', inplace=True)
 
-
+    # merge all data to this point with main software recs
     df_details_sets_and_recs = pd.merge(df_all, df_main_software_recs, how='outer', on='URL')
+    # merge all data to this point with the search of software records with bad responses to OAI
     df_complete_data = pd.merge(df_details_sets_and_recs, df_manual_software_recs, how='outer', on='URL')
-    df_complete_data.to_csv("./complete_dataset.csv")
+    df_complete_data.to_csv("./results/dataset.csv")
 
 main()
