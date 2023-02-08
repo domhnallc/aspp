@@ -2,18 +2,18 @@
 This code was used to generate the dataset for our paper, under review at PeerJ Computer Science, titled "Where is all the research software? An
 analysis of software in UK academic repositories."
 
-**Important Files**
+##Important Files
 
-**core_api_queries.core_query.pi:**
+###core_api_queries.core_query.pi
 
 Contains functions to retrieve data from CORE API v3. Authorised using the ./apikey from core.ac.uk.
 Based on examples provided by CORE at https://github.com/oacore/apiv3-webinar/
 
-**submission dataset_release_v1.csv:**
+###submission dataset_release_v1.csv
 
 The dataset built in this research.  The base dataset can be created using create_base_data_set.py, which retrieves metadata from 
 
-Cite as:
+###Cite as:
 
 Domhnall Carlin. (2023). A census of research software in 171 academic institutional repositories. (Version 1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7603444
 
