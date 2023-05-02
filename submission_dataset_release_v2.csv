@@ -171,3 +171,14 @@ eprints.worc.ac.uk/cgi/oai2,133,1177,University of Worcester Research and Public
 writtle.repository.guildhe.ac.uk/cgi/oai2,15091,,Writtle University College Repository,no,no,,,writtle,https://writtle.repository.guildhe.ac.uk,,Eprints,eprints,oai_dc,2020-03-10T14:49:37+00:00,"{'countryCode': 'GB', 'latitude': 51.736605, 'longitude': 0.427964}",https://api.core.ac.uk/data-providers/15091/logo,REPOSITORY,,No,0,No error,0,Does not contain software
 ray.yorksj.ac.uk/cgi/oai2,683,,York St John University Institutional Repository,no,no,,,yorksj,https://ray.yorksj.ac.uk,,EPrints 3.4.1,eprints,rioxx,2011-05-27T23:19:36+01:00,"{'countryCode': 'GB', 'latitude': 53.9653, 'longitude': -1.0809}",https://api.core.ac.uk/data-providers/683/logo,REPOSITORY,,No,0,No error,0,No direct software search capability
 abdn.pure.elsevier.com,,,The University of Aberdeen Research Portal,,,,,abdn,https://abdn.pure.elsevier.com/en/,,pure,pure,oai_dc,,,,,,,,,1409,
+,,,,,,,,aber ,https://research.aber.ac.uk,,,,,,,,,,,,,10,Contains software
+,,,,,,,,uobrep,https://uobrep.openrepository.com/,,,,,,,,,,,,,0,No direct software search capability
+,,,,,,,,cardiffmet,https://figshare.cardiffmet.ac.uk,,,,,,,,,,,,,4,Contains software
+,,,,,,,,hartpury,https://pure.hartpury.ac.uk,,,,,,,,,,,,,0,Does not contain software
+,,,,,,,,hw,https://researchportal.hw.ac.uk/,,,,,,,,,,,,,11,Contains software
+,,,,,,,,uhi,https://pure.uhi.ac.uk/,,,,,,,,,,,,,4,Contains software
+,,,,,,,,leedstrinity,https://research.leedstrinity.ac.uk/,,,,,,,,,,,,,0,Does not contain software
+,,,,,,,,le,https://figshare.le.ac.uk,,,,,,,,,,,,,28,Contains software
+,,,,,,,,lboro,https://repository.lboro.ac.uk/,,,,,,,,,,,,,30,Contains software
+,,,,,,,,guildhe,https://nua.repository.guildhe.ac.uk/,,,,,,,,,,,,,0,No direct software search capability
+,,,,,,,,uws,https://research-portal.uws.ac.uk,,,,,,,,,,,,,4,Contains software
