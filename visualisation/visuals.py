@@ -166,7 +166,7 @@ def vis_russell_group_correlation(df_russell):
 def main():
     print("MAIN")
     pd.set_option("display.max_rows", None)
-    data_file = "/home/domhnall/Dev/aspp/submission_dataset_release_v2.csv"
+    data_file = "./submission_dataset_release_v2.csv"
 
 
     # Count URLs per error type
