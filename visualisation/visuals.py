@@ -24,7 +24,8 @@ def filter_dataframe(df_in: pd.DataFrame) -> pd.DataFrame:
             "Manual_Num_sw_records",
             "Category",
             "Russell_member",
-            "uni_sld"
+            "uni_sld",
+            "RSE_group"
         ]
     ]
     return filtered_df
@@ -51,8 +52,29 @@ def vis_unis_with_sware(df_base):
     plt.pie(vals, labels=labels, autopct="%1.1f%%", explode=explode)
     plt.title("Software contained in \nUK Academic Institutional Repositories")
     plt.axis("equal")
-    #plt.savefig("./visualisation/insts_category.pdf")
-    print("Saved ./visualisation/insts_category.pdf")
+    plt.show()
+
+def num_repos_per_RIS_type(df_base):
+    print("num_repos_per_RIS_type")
+    select_df = df_base[['ris_software_enum']]
+    vals = select_df.groupby("ris_software_enum", sort=True).size().sort_values(ascending=False)
+    print(vals)
+
+def cat_per_institute(df_base):
+    '''loads a separate csv with uni_sld and software category per institute, not per repository'''
+
+    data = df_base.groupby("Cat_per_inst")
+    print(data.size().sort_values(ascending=False))
+    
+    explode = [0.2, 0, 0]
+    labels = [
+        "Contains software",
+        "Does not\ncontain software",
+        "No direct software\n search capability",
+    ]
+    plt.pie(data.size(), labels=labels, autopct="%1.1f%%", explode=explode)
+    plt.title("Software contained in \nUK Academic Institutions")
+    plt.axis("equal")
     plt.show()
 
 # TABLE 3 and FIG 5
@@ -156,12 +178,21 @@ def vis_russell_group_correlation(df_russell):
         columns=df_russell["Category"],
         normalize="index",
     ).sort_values("Contains software")
-
+    print("\nRussell group\n\n")
     print(russell_cross_tab_prop) #TBL 5
     russell_cross_tab_prop.plot(kind="barh", stacked=True)
     plt.show()
 
     return russell_cross_tab_prop
+
+def vis_rse_group_by_contains_sware(df_base):
+    print("\n\nRSE GROUP")
+    cross_tab_prop = pd.crosstab(
+        index=df_base["RSE_group"], columns=df_base["Category"], normalize="index"
+    ).sort_values("Contains software")
+    print(cross_tab_prop)
+
+    chisq(cross_tab_prop=cross_tab_prop, subhead="Software records by RSE Group at institution.")
 
 def main():
     print("MAIN")
@@ -177,8 +208,14 @@ def main():
     df_all_data = get_dataframe(data_file, sort_key='name')
     df_filtered = filter_dataframe(df_all_data)
 
-    #Unis with software in repository
+    #IRs with software in repository
     vis_unis_with_sware(df_filtered)
+
+    #institutes (as opposed to IRs) with software in repository
+    cat_per_institute(get_dataframe('./submission_cat_per_institute.csv', sort_key= 'Cat_per_inst'))
+
+    #table of count/percentages of RIS type
+    num_repos_per_RIS_type(df_filtered)
 
     # vis software by RIS type
     vis_contains_sware_by_ris_type(df_filtered)
@@ -193,6 +230,9 @@ def main():
 
     russell_ctp = vis_russell_group_correlation(df_filtered)
     chisq(subhead="Membership of Russell Group vs Software in repository", cross_tab_prop=russell_ctp)
+
+    #
+    vis_rse_group_by_contains_sware(df_filtered)
     
 
 main()
