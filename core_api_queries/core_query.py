@@ -1,6 +1,6 @@
 import requests
 import json
-import pprint
+from pprint import pprint
 
 API_ENDPOINT = "https://api.core.ac.uk/v3/"
 
@@ -66,7 +66,7 @@ def get_all_oaiPmhUrls(results):
 def main():
     # get all data providers in uk
     api_key = get_API_Key()
-    print(get_core_providers_details('GB', api_key))
+    pprint(get_core_providers_details('GB', api_key))
     # print(provider['oaiPmhUrl'] for provider in results['results'])
     # get_all_oaiPmhUrls(results)
 
