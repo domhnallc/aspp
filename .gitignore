@@ -135,6 +135,7 @@ dmypy.json
 my_venv/lib64
 .idea/workspace.xml
 .~lock.submission_dataset_release_v2.csv#
+<<<<<<< HEAD
 .~lock.submission_dataset_release_v1.csv#
 aspp_venv/lib64
 aspp_venv/pyvenv.cfg
@@ -186,3 +187,6 @@ aspp_venv/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl
 aspp_venv/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl
 core_api_queries/apikey
 core_api_queries/data
+=======
+.~lock.submission_dataset_release_v3.csv#
+>>>>>>> 0c475068d53ca2c7f2fd44c13764475fa33c19bf

@@ -106,5 +106,5 @@ def main():
     df_complete_data = pd.merge(df_details_sets_and_recs, df_manual_software_recs, how='outer', on='URL')
     df_complete_data.to_csv("./results/dataset.csv")
 
-if __name__ = 'main':
+if __name__ == '__main__':
     main()
