@@ -1,8 +1,7 @@
 
-This code was used to generate the dataset for our paper, under review at PeerJ Computer Science, titled "Where is all the research software? An
-analysis of software in UK academic repositories."
+This code was used to generate the dataset for our paper, under review at PeerJ Computer Science, titled "Where is all the research software? An analysis of software in UK academic repositories."
 
-##Important Files##
+## Important Files
 
 The notebook **main_dataset_builder.ipynb** walks through the process of how the dataset was built.
 
