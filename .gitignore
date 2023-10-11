@@ -112,6 +112,7 @@ ENV/
 env.bak/
 venv.bak/
 my_env/
+aspp_venv/
 
 # Spyder project settings
 .spyderproject
@@ -134,4 +135,58 @@ dmypy.json
 my_venv/lib64
 .idea/workspace.xml
 .~lock.submission_dataset_release_v2.csv#
+<<<<<<< HEAD
+.~lock.submission_dataset_release_v1.csv#
+aspp_venv/lib64
+aspp_venv/pyvenv.cfg
+aspp_venv/bin/activate
+aspp_venv/bin/activate.csh
+aspp_venv/bin/activate.fish
+aspp_venv/bin/Activate.ps1
+aspp_venv/bin/easy_install
+aspp_venv/bin/easy_install-3.8
+aspp_venv/bin/f2py
+aspp_venv/bin/f2py3
+aspp_venv/bin/f2py3.8
+aspp_venv/bin/fonttools
+aspp_venv/bin/normalizer
+aspp_venv/bin/pip
+aspp_venv/bin/pip3
+aspp_venv/bin/pip3.8
+aspp_venv/bin/pip3.10
+aspp_venv/bin/pybind11-config
+aspp_venv/bin/pyftmerge
+aspp_venv/bin/pyftsubset
+aspp_venv/bin/python
+aspp_venv/bin/python3
+aspp_venv/bin/runxlrd.py
+aspp_venv/bin/ttx
+aspp_venv/share/man/man1/ttx.1
+aspp_venv/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/certifi-2018.1.18-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/distlib-0.2.6-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/distro-1.0.1-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/html5lib-0.999999999-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/idna-2.6-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/packaging-17.1-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/pip-9.0.1-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/progress-1.2-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/requests-2.18.4-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/six-1.11.0-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/urllib3-1.22-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl
+aspp_venv/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl
+core_api_queries/apikey
+core_api_queries/data
+=======
 .~lock.submission_dataset_release_v3.csv#
+>>>>>>> 0c475068d53ca2c7f2fd44c13764475fa33c19bf
